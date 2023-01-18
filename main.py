@@ -28,6 +28,8 @@ def reverse_level_order_traversal(root):
              queue1.append(value.left)
          if(value.right!=None):
              queue1.append(value.right)
+
+	    #Test
     queue2.reverse() 
     for x in queue2:
         print(x)    
